@@ -1,0 +1,135 @@
+.contenedor {
+
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: repeat(1,6 150px);
+    gap: 10px;
+}
+
+.contenedor>* {
+    text-align: center;
+    color: black;
+}
+
+.barra {
+    grid-column: 1 /span 3;
+    display: grid;
+}
+
+.titulos {
+    grid-column: 1 /span 3;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.carrera1 {
+    grid-column: 1 /span 3;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.carrera2 {
+    grid-column: 1 /span 3;
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.carrera3{
+    grid-column: 1 /span 3;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.imagenes, .footer {
+    grid-column: 1 / span 3;
+}
+
+#encabezado {
+    height: 90px;
+    margin-top: 3px;
+    margin-right: 10px;
+    float: left;
+}
+
+#encabezado2 {
+    height: 90px;
+    margin-top: 3px;
+    float: right;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.barra {
+    display: Grid;
+    background-color: coral;
+    height: 35px;
+    justify-content: space-between;
+    background-color: #8c0000;
+    align-items: center;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+.redes {
+    height: 40px;
+    float: right;
+    padding-right: 25px;
+}
+.nombre{
+    font-size: 1.5em;
+    color: #8c0000;
+    float: left;
+}
+.tabla{
+    width: 600px;
+    border-style: outset;
+    border-color: #8c0000;
+    margin: auto;
+}
+
+.carrera1{
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.carrera2{
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.carrera3{
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.imgs{
+        height: 156px;
+        width: 156px;
+}
+.footer{
+    background-color: #8c0000;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    height: 60px;
+    position: sticky;
+}
+.btn_success{
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    background-color: #8c0000;
+    color: white;
+}

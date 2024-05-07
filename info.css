@@ -1,0 +1,137 @@
+.contenedor {
+
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    grid-template-rows: repeat(1, 2 150px);
+    gap: 10px;
+}
+
+.contenedor>* {
+    text-align: center;
+    color: black;
+}
+
+.barra {
+    grid-column: 1 /span 3;
+    display: grid;
+}
+
+.titulos {
+    grid-column: 1 /span 3;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.programas {
+    grid-column: 1 /span 3;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+h1 {
+    grid-column: 1 /span 3;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.caso1 {
+    grid-column: 1 /span 3;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.caso2 {
+    grid-column: 1 /span 3;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.imagenes,
+.footer {
+    grid-column: 1 / span 3;
+}
+
+#encabezado {
+    height: 90px;
+    margin-top: 3px;
+    margin-right: 10px;
+    float: left;
+}
+
+#encabezado2 {
+    height: 90px;
+    margin-top: 3px;
+    float: right;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.barra {
+    display: Grid;
+    background-color: coral;
+    height: 35px;
+    justify-content: space-between;
+    background-color: #8c0000;
+    align-items: center;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+.redes {
+    height: 40px;
+    float: right;
+    padding-right: 25px;
+}
+
+.programas {
+    background-color: #8c0000;
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+}
+
+#gray {
+    background-color: gray;
+    color: white;
+}
+
+#violet {
+    background-color: violet;
+    color: white;
+}
+.cuadro1, .cuadro2, .cuadro3, .cuadro4{
+    display: flex;
+    justify-content: space-between;
+}
+     
+.left-title {
+    margin-right: auto;
+}
+
+.right-title {
+    margin-left: auto;
+}
+.footer{
+    background-color: #8c0000;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    height: 60px;
+    position: sticky;
+}
